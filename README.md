@@ -10,4 +10,4 @@ After training the Neural Network model on the data with masses in {500, 750, 12
 Next we use the same model to make predictions on the collision test data for mass = 1000. The area under the Receiver Operating Characteristic curve obtained was 0.969.<br/> <br/>
 Note that when we trained our model, we used collision data with masses exclusively in {500, 750, 1250, 1500}. But when we tested our model on collision data for mass = 1000, we got the area under roc-auc curve as good as the area under roc-auc curve for collision test data with masses in {500, 750, 1250, 1500}. The area under the roc-auc curve in both cases were greater than 0.9. <br/><br/>
 This demonstrates that the Neural Network was successfully able to interpolate the mass feature to make accurate predictions for an unseen mass.<br/><br/>
-The detailed description of the code can be found in the jupyter notebook.
+A detailed description of the code can be found in the jupyter notebook.
